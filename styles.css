@@ -12,3 +12,21 @@
     width: 150px;
     height: 150px;
 }
+
+/* Exercise 4 - FPT University */
+.fpt-header {
+    background-color: #f0a030;
+}
+
+.fpt-logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.fpt-title {
+    color: #003399;
+}
+
+.fpt-footer {
+    background-color: #f5d89a;
+}
