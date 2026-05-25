@@ -7,20 +7,33 @@
     <title>Bootstrap 5 Grid</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <style>
-        .col, .col-8, .col-4 {
-            border: 1px solid #dee2e6;
-            padding: 10px;
-            background-color: #e9ecef;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-    <div class="container border mt-4 p-4">
+    <div class="container border mt-4 p-0">
 
-        <h2>Let's test the grid!</h2>
+        <div class="bg-secondary text-white p-4">
+            <h2>Let's test the grid!</h2>
+        </div>
+
+        <div class="p-4">
+
+            <ul class="nav mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
 
         <div class="row mt-4">
             <div class="col-8">First col</div>
@@ -40,8 +53,10 @@
             <div class="col">col</div>
         </div>
 
+        </div>
+
         <div class="row mt-3">
-            <div class="col text-center py-2" style="background-color: #d5c4a1;">
+            <div class="col text-center py-2 footer-bar">
                 <h4 class="mb-0">Created by ABC!</h4>
             </div>
         </div>
@@ -53,13 +68,13 @@
         <h2 class="mb-4">My First Bootstrap Page</h2>
         <div class="row justify-content-center">
             <div class="col-auto">
-                <img src="images/html5.png" alt="HTML5" style="width: 150px; height: 150px;">
+                <img src="images/html5.png" alt="HTML5" class="logo-img">
             </div>
             <div class="col-auto">
-                <img src="images/css3.png" alt="CSS3" style="width: 150px; height: 150px;">
+                <img src="images/css3.png" alt="CSS3" class="logo-img">
             </div>
             <div class="col-auto">
-                <img src="images/bootstrap.png" alt="Bootstrap" style="width: 150px; height: 150px;">
+                <img src="images/bootstrap.png" alt="Bootstrap" class="logo-img">
             </div>
         </div>
     </div>
