@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,33 +12,34 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
-    <!-- Exercise 4 -->
-    <div class="container mt-4 p-0 border">
-      <!-- Header with FPT Logo -->
-      <div class="text-center p-4 fpt-header">
-        <img src="images/FPT logo.png" alt="FPT Education" class="fpt-logo" />
-        <h3 class="fw-bold mt-2 fpt-title">FPT UNIVERSITY</h3>
-        <!-- Nav links -->
-        <div class="mt-2">
-          <a href="#" class="text-white text-decoration-none mx-1">Home</a>
-          <a href="#" class="text-white text-decoration-none mx-1">About</a>
-          <a href="#" class="text-white text-decoration-none mx-1">Contact</a>
+    <!-- Exercise 7: Cards Columns -->
+    <div class="container mt-4 p-4">
+      <h4 class="fw-bold">Cards Columns</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-primary border-3">
+            <img src="images/Car.png" class="card-img-top" alt="Car" />
+            <div class="card-body bg-primary">
+              <p class="card-text text-white">Some text inside the first card</p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- Content -->
-      <div class="text-center p-4">
-        <h4 class="fw-bold">About</h4>
-        <p>This is the about section of the website.</p>
-
-        <h4 class="fw-bold mt-4">Contact</h4>
-        <p>For any inquiries, please contact us at example@example.com.</p>
-      </div>
-
-      <!-- Footer -->
-      <div class="text-center py-2 fpt-footer">
-        © 2023 Website. All rights reserved.
+        <div class="col-md-4">
+          <div class="card border-warning border-3">
+            <img src="images/Car.png" class="card-img-top" alt="Car" />
+            <div class="card-body bg-warning">
+              <p class="card-text text-white">Some text inside the second card</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-danger border-3">
+            <img src="images/Car.png" class="card-img-top" alt="Car" />
+            <div class="card-body bg-danger">
+              <p class="card-text text-white">Some text inside the third card</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

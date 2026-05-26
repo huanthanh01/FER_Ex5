@@ -1,3 +1,7 @@
+```
+
+```
+
 # Exercise 5 - Bootstrap 5 (Exercises 1, 2, 3)
 
 ## Code index.html (Bài 1, 2, 3)
@@ -90,3 +94,61 @@
   </body>
 </html>
 ```
+
+===========================================================
+
+## Code index.html (Bài 4)
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 5 Grid</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Exercise 4 -->
+    <div class="container mt-4 p-0 border">
+      <!-- Header with FPT Logo -->
+      <div class="text-center p-4 fpt-header">
+        <img src="images/FPT logo.png" alt="FPT Education" class="fpt-logo" />
+        <h3 class="fw-bold mt-2 fpt-title">FPT UNIVERSITY</h3>
+        <!-- Nav links -->
+        <div class="mt-2">
+          <a href="#" class="text-white text-decoration-none mx-1">Home</a>
+          <a href="#" class="text-white text-decoration-none mx-1">About</a>
+          <a href="#" class="text-white text-decoration-none mx-1">Contact</a>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="text-center p-4">
+        <h4 class="fw-bold">About</h4>
+        <p>This is the about section of the website.</p>
+
+        <h4 class="fw-bold mt-4">Contact</h4>
+        <p>For any inquiries, please contact us at example@example.com.</p>
+      </div>
+
+      <!-- Footer -->
+      <div class="text-center py-2 fpt-footer">
+        © 2023 Website. All rights reserved.
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
